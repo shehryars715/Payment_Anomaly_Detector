@@ -8,6 +8,11 @@ This notebook implements a machine learning pipeline for detecting fraudulent tr
 
 The **Credit Card Fraud Detection** dataset is characterized by a **highly imbalanced class distribution**, where fraudulent transactions are much less frequent than legitim ones. This imbalance makes it challenging to build a reliable model, as traditional machine learning algorithms tend to bias the majority class (legitimate transactions), resulting in poor performance for the minority class (fraudulent transactions).
 
+## Dataset
+
+This project uses a dataset from Kaggle. You can find the dataset : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+
 ## Approach
 
 The problem of fraud detection was approached in the following steps:
@@ -87,5 +92,6 @@ To run this notebook, you will need the following Python libraries:
 - `scikit-learn`
 - `lightgbm`
 - `imbalanced-learn`
+
 
 
